@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">饭点吃啥</string>
+    <string name="title_home">添加</string>
+    <string name="shortcuts_add">添加菜单</string>
+    <string name="title_dashboard">冲</string>
+    <string name="title_notifications">关于</string>
+    <string name="app_version">版本：1.4.2.7 ULTIMATE.</string>
+
+    <!--以下是在添加页面出现的文字-->
+    <string name="home_add_food">菜名[示例：鸡公煲]</string>
+    <string name="home_add_loc">地址[示例：北京路46号]</string>
+    <string name="home_btn">加</string>
+    <string name="choose_hint">选择分类后，有利于在随机选择中更有效地选出心仪的食物。</string>
+    <string name="classify_hint">请选择分类[默认为吃的]</string>
+    <string name="delete_hint">是否删除此项？</string>
+    <string name="delete_hint_long">删除后即代表将此项从数据库中移除，若需要可再次手动添加.</string>
+    <string name="tutorial">1. 这款软件可以在你犹豫饭点到底该吃什么的时候帮你做出选择。\n2. 初次使用，在最左边页面添加菜单，注意选择分类哟。\n3. 当系统中有菜单之后，在最中间页面点击相应按钮，系统会自动帮你做出一个选择，供你参考。\n4. 如果选出的选项今后不再需要，可点击下方的 [ 不喜欢？:( ] 字样进行删除。</string>
+    <string name="donate_hint">俺不需要捐赠，如果实在想捐打开支付宝搜索 [爱心捐赠] 。</string>
+    <string name="github_site">项目地址：</string>
+    <string name="github_site_url">https://github.com/peacemo/whatForEat</string>
+    <string name="copyright">Application designed and created by Carl Chen, powered by Android. (除重大bug外不再维护)</string>
+    <string name="please_hint">选择分类开始随机抽取</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:shortcutId="dash"
+        android:shortcutDisabledMessage="@string/shortcuts_add"
+        android:shortcutLongLabel="@string/shortcuts_add"
+        android:shortcutShortLabel="@string/shortcuts_add">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.carlchenxq.zidong.MainActivity"
+            android:targetPackage="com.carlchenxq.zidong" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
