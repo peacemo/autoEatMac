@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/notiColor"
     android:orientation="vertical"
-    android:paddingTop="?android:attr/actionBarSize"
-    android:paddingBottom="50dp">
+    android:paddingTop="?android:attr/actionBarSize" >
 
     <LinearLayout
         android:id="@+id/ll_content"
@@ -16,7 +15,8 @@
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:layout_marginBottom="10dp" >
 
 
         <TextView
@@ -51,23 +51,6 @@
             android:clickable="true"
             android:textSize="16sp"
             android:onClick="onClickEasterEgg"/>
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:text="捐赠："
-            android:textColor="@color/textColor"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape_card"
-            android:text="@string/donate_hint"
-            android:textSize="16sp" />
 
         <TextView
             android:layout_width="match_parent"
